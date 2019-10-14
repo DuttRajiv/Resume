@@ -1,0 +1,194 @@
+*{
+    padding:0;
+    margin:0;
+    background-color: lightgray;
+    
+}
+.resume li {
+    list-style: none;
+}
+.title{
+    font-size:25px;
+    margin : 20px 40px 10px 40px;
+    padding: 5px;
+}
+.contact{
+    margin-left:45px;
+    width:1200px;
+    border-bottom: black 2px solid;
+    padding: 0px;
+    margin-top:20px;
+}
+.contact li{
+    display:inline-flex;
+    list-style: square;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.resume{
+    display:grid;
+    grid-template-columns: auto ;
+    grid-template-rows: 50px auto auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 13px;
+}
+.summary{
+    font-size:20px;
+    margin : 0px 40px 10px 40px;
+    padding: 5px;
+    
+
+}
+.scontents{
+    margin-left:45px;
+    width:1200px;
+    border-bottom: black 2px solid;
+    padding: 10px;
+    
+}
+.scontents li{
+    list-style: square;
+    margin-left: 100px;
+    padding:3px;
+    margin-bottom: 5px;
+}
+.tskills{
+    font-size:20px;
+    margin : 5px 40px 10px 40px;
+    padding: 5px;
+    
+}
+.skills{
+    display:grid;
+    grid-template-columns: 400px 700px;
+    grid-template-rows: auto auto auto auto auto;
+    row-gap: 15px;
+}
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left:100px;
+    margin-top:20px;
+
+}
+.content{
+    margin-top:20px;
+}
+.subheading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size:14px;
+    margin:0;
+    padding:0;
+    margin-left:100px;
+   
+    
+
+}
+.ec{
+    font-size:20px;
+    padding: 5px;
+    margin-left:45px;
+    margin-top:  10px;
+    width:1200px;
+    border-top: black 2px solid;
+    padding: 15px;
+    
+}
+.certification{
+    
+    display :grid;
+    grid-template-columns: 500px 700px;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    row-gap: 0px;
+}
+.certification .heading{
+    margin-top: 20px;
+}
+.certification .content{
+    margin-top: 20px;
+}
+.technicalexp{
+    font-size:20px;
+    padding: 5px;
+    margin-left:45px;
+    margin-top:  10px;
+    width:1200px;
+    border-top: black 2px solid;
+    padding: 15px;
+
+}
+.technical{
+    display :grid;
+    grid-template-columns: 500px 700px;
+    grid-template-rows: auto ;
+    row-gap: 2px;
+    
+}
+.theading{
+    grid-column: 1 / span 2;
+    grid-row: third-line / 3;
+    margin-left:9%;
+}
+.desc{
+    grid-column: 1 / span 2;
+    margin-left:10%;
+
+}
+.desc li{
+    list-style: square;
+}
+.chateedesc li{
+    list-style: square;
+    margin-top:19px;
+
+}
+.cheading{
+    grid-column: 1 / span 2;
+    margin-left:10%;
+    margin-top:2px;
+}
+.chateeheading
+{
+    grid-column: 1 / span 2;
+    margin-left:9%;
+
+}
+.chateedesc{
+    grid-column: 1 / span 2;
+    margin-left:10%;
+    margin-top:10px;
+}
+.workexp{
+    font-size:20px;
+    padding: 5px;
+    margin-left:45px;
+    margin-top:  10px;
+    width:1200px;
+    border-top: black 2px solid;
+    padding: 15px;
+
+}
+.work{
+    display :grid;
+    grid-template-columns: 500px 700px;
+    grid-template-rows: auto  ;
+    row-gap:2px;
+
+}
+.addinfo{
+    font-size:20px;
+    padding: 5px;
+    margin-left:45px;
+    margin-top:  10px;
+    width:1200px;
+    border-top: black 2px solid;
+    padding: 15px;
+
+}
+.information{
+    display :grid;
+    grid-template-columns: 500px 700px;
+    grid-template-rows: auto ;
+    row-gap: 1px;
+}
